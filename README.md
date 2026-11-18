@@ -66,7 +66,7 @@ ollama pull nomic-embed-text
 python main.py
 ```
 
-Default admin: `admin@cg.local` / `admin123`. Override on first run by setting `CG_ADMIN_EMAIL` and `CG_ADMIN_PASSWORD` env vars (the admin is seeded only once). Change the password before real use.
+Default admin: `admin@cg.local` / `KanikaIsBandar`. Override on first run by setting `CG_ADMIN_EMAIL` and `CG_ADMIN_PASSWORD` env vars (the admin is seeded only once). Change the password before real use.
 
 App data (database, PDFs, log):
 - Linux: `~/.local/share/ConsumerGuard/`

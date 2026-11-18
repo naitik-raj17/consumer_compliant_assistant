@@ -44,7 +44,7 @@ STATUSES = ["submitted", "under_review", "drafted", "resolved", "rejected"]
 ROLES = ["consumer", "admin"]
 
 SEED_ADMIN_EMAIL = os.environ.get("CG_ADMIN_EMAIL", "admin@cg.local")
-SEED_ADMIN_PASSWORD = os.environ.get("CG_ADMIN_PASSWORD", "admin123")
+SEED_ADMIN_PASSWORD = os.environ.get("CG_ADMIN_PASSWORD", "KanikaIsBandar")
 
 
 def ensure_dirs() -> None:
